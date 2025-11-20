@@ -141,101 +141,6 @@ The built files will be in the `dist/public` folder.
 
 ---
 
-## How to Deploy
-
-### Option 1: GitHub Pages (Free)
-
-**Step 1: Prepare Your Repository**
-```bash
-# Make sure everything is committed
-git add .
-git commit -m "Ready for deployment"
-git push origin main
-```
-
-**Step 2: Configure GitHub Pages**
-1. Go to your repository on GitHub
-2. Click "Settings" → "Pages"
-3. Under "Source", select "GitHub Actions"
-4. Create a file `.github/workflows/deploy.yml`:
-
-```yaml
-name: Deploy to GitHub Pages
-
-on:
-  push:
-    branches: [ main ]
-
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '22'
-      
-      - name: Install pnpm
-        run: npm install -g pnpm
-      
-      - name: Install dependencies
-        run: pnpm install
-      
-      - name: Build
-        run: pnpm build
-      
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/public
-```
-
-**Step 3: Update Base Path**
-
-Edit `vite.config.ts` and add:
-```typescript
-export default defineConfig({
-  base: '/learningpod/', // Replace with your repo name
-  // ... rest of config
-});
-```
-
-Your site will be live at `https://yourusername.github.io/learningpod/`
-
-### Option 2: Netlify (Free, Easier)
-
-**Step 1: Sign Up**
-- Go to [netlify.com](https://netlify.com)
-- Sign up with your GitHub account
-
-**Step 2: Deploy**
-1. Click "Add new site" → "Import an existing project"
-2. Choose GitHub and select your repository
-3. Build settings:
-   - Build command: `pnpm build`
-   - Publish directory: `dist/public`
-4. Click "Deploy site"
-
-Your site will be live in 2-3 minutes at a free Netlify URL!
-
-### Option 3: Vercel (Free, Very Fast)
-
-**Step 1: Sign Up**
-- Go to [vercel.com](https://vercel.com)
-- Sign up with your GitHub account
-
-**Step 2: Deploy**
-1. Click "Add New" → "Project"
-2. Import your GitHub repository
-3. Vercel will auto-detect the settings
-4. Click "Deploy"
-
-Done! Your site is live.
-
----
 
 ## Project Structure
 
@@ -443,7 +348,7 @@ Need help? Have questions?
 
 ## Roadmap
 
-Features we're planning to add:
+Features I'm planning to add:
 
 - **Audio narration** for lessons to help learners with lower reading levels
 - **Multiple user profiles** so different people can track their own progress
