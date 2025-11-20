@@ -1,0 +1,83 @@
+[
+  {
+    "id": "basic-literacy-1",
+    "title": "Basic Reading Skills",
+    "description": "Learn to read simple words and sentences. Perfect for beginners starting their literacy journey.",
+    "lessons": [
+      {
+        "id": "lesson-1",
+        "title": "The Alphabet - A to M",
+        "content": "Welcome to your first lesson! Today we will learn the first half of the alphabet.\n\n**A** - Apple\n**B** - Ball\n**C** - Cat\n**D** - Dog\n**E** - Egg\n**F** - Fish\n**G** - Girl\n**H** - House\n**I** - Ice\n**J** - Jump\n**K** - King\n**L** - Lion\n**M** - Moon\n\nPractice saying each letter out loud."
+      },
+      {
+        "id": "lesson-2",
+        "title": "The Alphabet - N to Z",
+        "content": "Let's continue learning the alphabet!\n\n**N** - Net\n**O** - Orange\n**P** - Pen\n**Q** - Queen\n**R** - Rain\n**S** - Sun\n**T** - Tree\n**U** - Umbrella\n**V** - Van\n**W** - Water\n**X** - Box\n**Y** - Yellow\n**Z** - Zebra\n\nGreat work! You now know all 26 letters."
+      },
+      {
+        "id": "lesson-3",
+        "title": "Simple Words",
+        "content": "Now let's put letters together to make words.\n\n**cat** - C-A-T\n**dog** - D-O-G\n**sun** - S-U-N\n**run** - R-U-N\n**big** - B-I-G\n**yes** - Y-E-S\n**not** - N-O-T\n**can** - C-A-N\n\nPractice reading these words slowly."
+      },
+      {
+        "id": "lesson-4",
+        "title": "Reading Sentences",
+        "content": "Let's read simple sentences together.\n\n**I can run.**\n**The cat is big.**\n**The sun is hot.**\n**I see a dog.**\n**Yes, I can.**\n\nRead each sentence out loud. Take your time!"
+      }
+    ]
+  },
+  {
+    "id": "vocational-sewing",
+    "title": "Introduction to Sewing",
+    "description": "Learn basic sewing skills including hand stitching, using a needle, and simple repairs.",
+    "lessons": [
+      {
+        "id": "sewing-1",
+        "title": "Sewing Tools and Safety",
+        "content": "Welcome to sewing! Let's learn about the tools you need.\n\n**Basic Tools:**\n- Needle\n- Thread\n- Scissors\n- Pins\n- Measuring tape\n- Fabric\n\n**Safety Rules:**\n1. Always keep needles and pins in a safe place\n2. Cut away from your body\n3. Keep scissors closed when not using\n4. Store tools properly after use\n\nRemember: Safety first!"
+      },
+      {
+        "id": "sewing-2",
+        "title": "Threading a Needle",
+        "content": "Threading a needle is an important skill.\n\n**Steps:**\n1. Cut thread about 50cm long\n2. Hold needle in one hand\n3. Push thread through the eye of the needle\n4. Pull thread through until both ends are even\n5. Tie a small knot at the end\n\n**Tip:** If you have trouble seeing, try using a needle threader or do it in good light.\n\nPractice this several times until it feels easy."
+      },
+      {
+        "id": "sewing-3",
+        "title": "Basic Running Stitch",
+        "content": "The running stitch is the most basic stitch.\n\n**How to do it:**\n1. Push needle up through fabric from bottom\n2. Pull thread all the way through\n3. Push needle back down through fabric\n4. Come up again a little distance away\n5. Repeat to make a line of stitches\n\n**Uses:**\n- Joining two pieces of fabric\n- Gathering fabric\n- Temporary stitching\n\nPractice on scrap fabric until your stitches are even."
+      },
+      {
+        "id": "sewing-4",
+        "title": "Sewing a Button",
+        "content": "Learn to sew on a button - a very useful skill!\n\n**Steps:**\n1. Thread needle and tie a knot\n2. Mark where button should go\n3. Push needle up from back of fabric\n4. Put needle through one hole in button\n5. Go back down through another hole\n6. Repeat 4-5 times\n7. Tie off thread at the back\n8. Cut excess thread\n\n**Practice:** Find an old shirt and practice sewing buttons.\n\nThis skill can help you fix clothes and even earn money!"
+      },
+      {
+        "id": "sewing-5",
+        "title": "Simple Repairs",
+        "content": "Now you can fix common clothing problems.\n\n**Fixing a Small Tear:**\n1. Turn garment inside out\n2. Pin edges of tear together\n3. Use running stitch to sew along tear\n4. Make stitches close together\n5. Tie off and cut thread\n\n**Fixing a Hem:**\n1. Fold fabric to desired length\n2. Pin in place\n3. Use running stitch to sew hem\n4. Remove pins as you go\n5. Press with iron if available\n\n**Congratulations!** You now have basic sewing skills that can help you and others."
+      }
+    ]
+  },
+  {
+    "id": "basic-math",
+    "title": "Basic Mathematics",
+    "description": "Learn counting, addition, and subtraction for everyday life.",
+    "lessons": [
+      {
+        "id": "math-1",
+        "title": "Counting 1 to 20",
+        "content": "Let's learn to count!\n\n**1** - One\n**2** - Two\n**3** - Three\n**4** - Four\n**5** - Five\n**6** - Six\n**7** - Seven\n**8** - Eight\n**9** - Nine\n**10** - Ten\n\n**11** - Eleven\n**12** - Twelve\n**13** - Thirteen\n**14** - Fourteen\n**15** - Fifteen\n**16** - Sixteen\n**17** - Seventeen\n**18** - Eighteen\n**19** - Nineteen\n**20** - Twenty\n\nPractice counting forward and backward."
+      },
+      {
+        "id": "math-2",
+        "title": "Simple Addition",
+        "content": "Addition means putting numbers together.\n\n**Examples:**\n- 1 + 1 = 2\n- 2 + 2 = 4\n- 3 + 2 = 5\n- 4 + 3 = 7\n- 5 + 5 = 10\n\n**Practice:**\n- 2 + 3 = ?\n- 4 + 4 = ?\n- 6 + 2 = ?\n- 3 + 5 = ?\n\nYou can use your fingers to help count!"
+      },
+      {
+        "id": "math-3",
+        "title": "Simple Subtraction",
+        "content": "Subtraction means taking away.\n\n**Examples:**\n- 5 - 2 = 3\n- 10 - 5 = 5\n- 8 - 3 = 5\n- 7 - 4 = 3\n- 6 - 1 = 5\n\n**Practice:**\n- 9 - 4 = ?\n- 10 - 3 = ?\n- 8 - 2 = ?\n- 7 - 5 = ?\n\nThink: If you have 7 oranges and give away 5, how many are left?"
+      }
+    ]
+  }
+]
